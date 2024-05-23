@@ -1,0 +1,50 @@
+{
+  "index.qmd": {
+    "index.html": "24b1be2f"
+  },
+  "about.qmd": {
+    "about.html": "9a66732f"
+  },
+  "Teach.qmd": {
+    "Teach.html": "52b6a5bf"
+  },
+  "teach.qmd": {
+    "teach.html": "08583248"
+  },
+  "Teach/CASA0005/CASA0005.qmd": {
+    "CASA0005.html": "ea450e82"
+  },
+  "Teach/CASA0023/CASA0023.qmd": {
+    "CASA0023.html": "707824ac"
+  },
+  "CV.qmd": {
+    "CV.html": "8479df99"
+  },
+  "research.qmd": {
+    "research.html": "9a6c06f6"
+  },
+  "study.qmd": {
+    "study.html": "0994c463"
+  },
+  "Teach/MSc Modelling for Global Health/Spatial Analysis of Public Health Data.qmd": {
+    "Spatial Analysis of Public Health Data.html": "7c02e447"
+  },
+  "Teach/CASA0010/CASA0010.qmd": {
+    "CASA0010.html": "be8196ee"
+  },
+  "Media.qmd": {
+    "Media.html": "988ad1c6"
+  },
+  "Media/Lunch hour lecture.qmd": {
+    "Lunch hour lecture.html": "466b72ce"
+  },
+  "Media/Promo.qmd": {
+    "Promo.html": "826d9769"
+  },
+  "presentations.qmd": {
+    "presentations.html": "32c51e6e"
+  },
+  "viz.qmd": {
+    "viz.html": "0f31e689"
+  }
+}

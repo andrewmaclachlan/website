@@ -1,0 +1,15 @@
+{
+  "hash": "f13730dd9ed2d5375ac460949b3d7841",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"CV\"\ndate: 2024-02-24\n# title-block-banner: \"#771C6D\"\npublished-title: CV last updated\nengine: knitr\nfreeze: false\ncv:\n  pdf: \"CV/AM_cv.pdf\"\n---\n\n\nMy CV is data driven through the [vitae package](https://github.com/mitchelloharawild/vitae)\n\n\n::: {.cell}\n<style type=\"text/css\">\n#title-block-header .description {\n    display: none;\n}\n</style>\n:::\n\n::: {.cell}\n<style type=\"text/css\">\n.embed-container {\n    position: relative;\n    padding-bottom: 129%;\n    height: 0;\n    overflow: hidden;\n    max-width: 100%;\n}\n\n.embed-container iframe,\n.embed-container object,\n.embed-container embed {\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n}\n</style>\n:::\n\n```{=html}\n\n\n<div class=\"embed-container\">\n  <iframe src=\"CV/AM_cv.pdf\" style=\"border: 0.5px\"></iframe>\n</div>\n```",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

@@ -1,0 +1,24 @@
+---
+title: "Andy MacLachlan"
+subtitle: "Associate Professor in Spatial Data Science and Visualisation"
+image: assets/profile.jpg
+about:
+  id: hero-heading
+  template: trestles
+  image-width: 15em
+  image-shape: rounded
+---
+
+```{r load_packages, message=FALSE, warning=FALSE, include=FALSE}
+library(fontawesome)
+```
+
+::: {#hero-heading}
+I'm an academic in the Centre for Advanced Spatial Analysis (CASA), University College London (UCL).
+
+I am driven in my career to have meaningful real world impact on the sustainability of our cities and empower students to become leading activists in urban spatial science. I take pride in my ability to explain complex problems in a simple manner, and in doing so, create an inclusive learning environment in which everyone can participate, contribute and excel.
+
+[{{< fa brands github size=lg >}}](https://github.com/andrewmaclachlan) [{{< fa envelope size=lg >}}](mailto:a.maclachlan@ucl.ac.uk) [<i class="ai ai-google-scholar-square ai-lg"></i>](https://scholar.google.com/citations?user=wLrJwyQAAAAJ&hl=en) [<i class="ai ai-orcid ai-lg"></i>](https://github.com/andrewmaclachlan) [{{< fa brands x-twitter size=lg >}}](https://twitter.com/andymaclachlan)
+
+[Learn more about me →](about.qmd){.about-links .subtitle}
+:::

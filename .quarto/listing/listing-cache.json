@@ -1,0 +1,10 @@
+{
+  "listingMap": {
+    "Media.qmd": [
+      "Media/*.qmd"
+    ],
+    "teach.qmd": [
+      "Teach/*/*.qmd"
+    ]
+  }
+}

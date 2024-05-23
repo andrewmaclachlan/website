@@ -1,0 +1,47 @@
+---
+title: "Viz"
+#date: 2024-02-24
+# title-block-banner: "#771C6D"
+lightbox: true
+
+format: 
+  html: 
+    page-layout: full
+---
+
+
+A selection of visualisations with links to code and papers. Click on the images for a gallery view.
+
+::: grid
+::: {#me-1 .g-col-6}
+
+## Tanzania
+
+![In progress](Research/images/study_area2_tanzania.png){group="my-gallery"}
+
+## UK and Spain
+
+![In progress [<i class="fa-brands fa-github"></i>](https://github.com/andrewmaclachlan/LAI-radiative-transfer-models-figure)](Research/images/study_area_luke.png){group="my-gallery"}
+
+
+## South Africa
+
+
+![COVID-19 reported cases (A) and deaths (B) in relation to the South African alert plan and contextual information on COVID-19 variants. Data source: COVID-19 Data Hub [<i class="ai ai-open-access"></i>](https://www.mdpi.com/2071-1050/15/3/1853)    [<i class="fa-brands fa-github"></i>](https://github.com/andrewmaclachlan/CCT)](Research/images/sustainability-15-01853-g001.png){group="my-gallery"}
+:::
+
+::: {#me-2 .g-col-6}
+
+## Perth, Western Australia
+
+
+![Three-dimensional city models (top row) and average annual mean radiant temperature (Tmrt) overlays (bottom row) for subsets of two SA1 locations representing low-density (cul-de-sac in Currambine) and high-density (infill site in Subiaco) developments. [<i class="ai ai-open-access "></i>](https://www.frontiersin.org/articles/10.3389/fbuil.2020.519599/full)](Research/images/fbuil-06-519599-g002.jpg){group="my-gallery"}
+
+![Average annual temperature using the original urban footprint, proposed redevelopment plans, and proposed plans with optimal tree placement. Also indicated are the average annual minimum, mean, and maximum mean radiant temperature with color-coded circles for each urban footprint scenario. The proposed redevelopment constitutes increased building height and variation across the site enlarging shading potential, reducing site mean radiant temperature compared to the original urban area. [<i class="ai ai-open-access"></i>](https://www.frontiersin.org/articles/10.3389/fbuil.2020.519599/full)](Research/images/fbuil-06-519599-g004.jpg){group="my-gallery"}
+
+:::
+:::
+
+<!-- end grid -->
+
+

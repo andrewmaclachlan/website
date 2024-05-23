@@ -1,6 +1,8 @@
 project:
   output-dir: docs
   type: website
+  resources:
+    - CNAME
 
 website:
   title: "Andy MacLachlan"

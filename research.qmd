@@ -1,9 +1,6 @@
 ---
 title: "Research" 
-#bibliography: Research/AM_bib.bib
-#csl: nature.csl
 
-lightbox: auto
 ---
 
 My research focuses on the application of spatial data, specifically that from earth observation (e.g. satellites) to inform and integrate sustainability into urban decision making. All the research I participate in revolves around an applied output that can be actioned upon by stakeholders, such as local governments, to improve the socio-physical urban environment. My primary published work has demonstrated the benefits of remotely sensing data in consistently monitoring urban land (or expansion) and being able to mitigate the urban heat island effect – a critical 21st century challenge that is often not included within global climate models or local planning guidance. Now, I work on any project that uses spatial data and geographical information science.

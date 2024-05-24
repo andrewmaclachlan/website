@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Andrew MacLachlan, Pushpa Arabindoo, Haripriya Narasimhan">
+<meta name="description" content="Digital urban workshop at IIT Hyderabad introducing spatial data, QGIS and basic operataions such as spatial joins and spatial subsets.">
 
-<title>Andy MacLachlan - Viz</title>
+<title>Andy MacLachlan - Critical interrogations of the digital urban in India</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,29 +25,26 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
-<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
-<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -84,14 +83,16 @@ gtag('config', 'G-HYCSXSDEHJ', { 'anonymize_ip': true});
 </script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
-<meta property="og:title" content="Andy MacLachlan - Viz">
-<meta property="og:description" content="">
+<meta property="og:title" content="Andy MacLachlan - Critical interrogations of the digital urban in India">
+<meta property="og:description" content="Digital urban workshop at IIT Hyderabad introducing spatial data, QGIS and basic operataions such as spatial joins and spatial subsets.">
+<meta property="og:image" content="points_outside_study_area.png">
 <meta property="og:site_name" content="Andy MacLachlan">
-<meta name="twitter:title" content="Andy MacLachlan - Viz">
-<meta name="twitter:description" content="">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Andy MacLachlan - Critical interrogations of the digital urban in India">
+<meta name="twitter:description" content="Digital urban workshop at IIT Hyderabad introducing spatial data, QGIS and basic operataions such as spatial joins and spatial subsets.">
+<meta name="twitter:image" content="points_outside_study_area.png">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-fixed">
@@ -101,7 +102,7 @@ gtag('config', 'G-HYCSXSDEHJ', { 'anonymize_ip': true});
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Andy MacLachlan</span>
     </a>
   </div>
@@ -112,27 +113,27 @@ gtag('config', 'G-HYCSXSDEHJ', { 'anonymize_ip': true});
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./teach.html"> 
+    <a class="nav-link" href="../../teach.html"> 
 <span class="menu-text">Teach</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./research.html"> 
+    <a class="nav-link" href="../../research.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./study.html"> 
+    <a class="nav-link" href="../../study.html"> 
 <span class="menu-text">Study with me</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./viz.html" aria-current="page"> 
+    <a class="nav-link" href="../../viz.html"> 
 <span class="menu-text">Viz</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./CV.html"> 
+    <a class="nav-link" href="../../CV.html"> 
 <span class="menu-text">CV</span></a>
   </li>  
 </ul>
@@ -145,24 +146,41 @@ gtag('config', 'G-HYCSXSDEHJ', { 'anonymize_ip': true});
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
     </div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Viz</h1>
+<h1 class="title">Critical interrogations of the digital urban in India</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">QGIS</div>
+    <div class="quarto-category">Digital urban</div>
+    <div class="quarto-category">workshop</div>
+    <div class="quarto-category">IITH</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    Digital urban workshop at IIT Hyderabad introducing spatial data, QGIS and basic operataions such as spatial joins and spatial subsets.
+  </div>
 </div>
 
 
+<div class="quarto-title-meta">
 
-<div class="quarto-title-meta column-page">
-
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Andrew MacLachlan, Pushpa Arabindoo, Haripriya Narasimhan </p>
+          </div>
+  </div>
     
   
     
@@ -173,65 +191,20 @@ gtag('config', 'G-HYCSXSDEHJ', { 'anonymize_ip': true});
 </header>
 
 
-<p>A selection of visualisations with links to code and papers. Click on the images for a gallery view.</p>
-<div class="grid">
-<div id="me-1" class="g-col-6">
-<section id="tanzania" class="level2">
-<h2 class="anchored" data-anchor-id="tanzania">Tanzania</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="Research/images/study_area2_tanzania.png" class="lightbox" data-gallery="my-gallery" data-glightbox="description: .lightbox-desc-1" title="In progress"><img src="Research/images/study_area2_tanzania.png" class="img-fluid figure-img" alt="In progress"></a></p>
-<figcaption>In progress</figcaption>
-</figure>
-</div>
-</section>
-<section id="uk-and-spain" class="level2">
-<h2 class="anchored" data-anchor-id="uk-and-spain">UK and Spain</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="Research/images/study_area_luke.png" class="lightbox" data-gallery="my-gallery" data-glightbox="description: .lightbox-desc-2" title="In progress "><img src="Research/images/study_area_luke.png" class="img-fluid figure-img" alt="In progress "></a></p>
-<figcaption>In progress <a href="https://github.com/andrewmaclachlan/LAI-radiative-transfer-models-figure"><i class="fa-brands fa-github"></i></a></figcaption>
-</figure>
-</div>
-</section>
-<section id="south-africa" class="level2">
-<h2 class="anchored" data-anchor-id="south-africa">South Africa</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="Research/images/sustainability-15-01853-g001.png" class="lightbox" data-gallery="my-gallery" data-glightbox="description: .lightbox-desc-3" title="COVID-19 reported cases (A) and deaths (B) in relation to the South African alert plan and contextual information on COVID-19 variants. Data source: COVID-19 Data Hub  "><img src="Research/images/sustainability-15-01853-g001.png" class="img-fluid figure-img" alt="COVID-19 reported cases (A) and deaths (B) in relation to the South African alert plan and contextual information on COVID-19 variants. Data source: COVID-19 Data Hub  "></a></p>
-<figcaption>COVID-19 reported cases (A) and deaths (B) in relation to the South African alert plan and contextual information on COVID-19 variants. Data source: COVID-19 Data Hub <a href="https://www.mdpi.com/2071-1050/15/3/1853"><i class="ai ai-open-access"></i></a> <a href="https://github.com/andrewmaclachlan/CCT"><i class="fa-brands fa-github"></i></a></figcaption>
-</figure>
-</div>
-</section>
-</div>
-<div id="me-2" class="g-col-6">
-<section id="perth-western-australia" class="level2">
-<h2 class="anchored" data-anchor-id="perth-western-australia">Perth, Western Australia</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="Research/images/fbuil-06-519599-g002.jpg" class="lightbox" data-gallery="my-gallery" data-glightbox="description: .lightbox-desc-4" title="Three-dimensional city models (top row) and average annual mean radiant temperature (Tmrt) overlays (bottom row) for subsets of two SA1 locations representing low-density (cul-de-sac in Currambine) and high-density (infill site in Subiaco) developments. "><img src="Research/images/fbuil-06-519599-g002.jpg" class="img-fluid figure-img" alt="Three-dimensional city models (top row) and average annual mean radiant temperature (Tmrt) overlays (bottom row) for subsets of two SA1 locations representing low-density (cul-de-sac in Currambine) and high-density (infill site in Subiaco) developments. "></a></p>
-<figcaption>Three-dimensional city models (top row) and average annual mean radiant temperature (Tmrt) overlays (bottom row) for subsets of two SA1 locations representing low-density (cul-de-sac in Currambine) and high-density (infill site in Subiaco) developments. <a href="https://www.frontiersin.org/articles/10.3389/fbuil.2020.519599/full"><i class="ai ai-open-access "></i></a></figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="Research/images/fbuil-06-519599-g004.jpg" class="lightbox" data-gallery="my-gallery" data-glightbox="description: .lightbox-desc-5" title="Average annual temperature using the original urban footprint, proposed redevelopment plans, and proposed plans with optimal tree placement. Also indicated are the average annual minimum, mean, and maximum mean radiant temperature with color-coded circles for each urban footprint scenario. The proposed redevelopment constitutes increased building height and variation across the site enlarging shading potential, reducing site mean radiant temperature compared to the original urban area. "><img src="Research/images/fbuil-06-519599-g004.jpg" class="img-fluid figure-img" alt="Average annual temperature using the original urban footprint, proposed redevelopment plans, and proposed plans with optimal tree placement. Also indicated are the average annual minimum, mean, and maximum mean radiant temperature with color-coded circles for each urban footprint scenario. The proposed redevelopment constitutes increased building height and variation across the site enlarging shading potential, reducing site mean radiant temperature compared to the original urban area. "></a></p>
-<figcaption>Average annual temperature using the original urban footprint, proposed redevelopment plans, and proposed plans with optimal tree placement. Also indicated are the average annual minimum, mean, and maximum mean radiant temperature with color-coded circles for each urban footprint scenario. The proposed redevelopment constitutes increased building height and variation across the site enlarging shading potential, reducing site mean radiant temperature compared to the original urban area. <a href="https://www.frontiersin.org/articles/10.3389/fbuil.2020.519599/full"><i class="ai ai-open-access"></i></a></figcaption>
-</figure>
-</div>
-</section>
-</div>
-</div>
-<!-- end grid -->
+<ul>
+<li><p>Workshop: <a href="https://andrewmaclachlan.github.io/digital-urban-hyderabad/"><i class="ai ai-open-materials"></i></a> <a href="https://github.com/andrewmaclachlan/digital-urban-hyderabad"><i class="fa-brands fa-github"></i></a></p></li>
+<li><p>Lecture: <a href="https://andrewmaclachlan.github.io/digital-urban-hyderabad-lecture/Pedagogic%20Challenges%202%20Urban%20Systems%20Science.html#/title-slide"><i class="fa-solid fa-person-chalkboard"></i></a> <a href="https://github.com/andrewmaclachlan/digital-urban-hyderabad-lecture"><i class="fa-brands fa-github"></i></a></p></li>
+</ul>
+<p>This workshop was funded by a 2023 UCL global engagement grant led by <a href="https://www.ucl.ac.uk/geography/pushpa-arabindoo">Dr Pushpa Arabindoo</a> in collaboration with <a href="https://www.iith.ac.in/la/haripriya/">Dr Haripriya Narasimhan</a></p>
+<p>Abbreviated flyer:</p>
+<blockquote class="blockquote">
+<p>Is the digital really ubiquitous to the urban and is the language of the digital overwhelmingly reshaping debates about contemporary cities? It is true that, as a global norm, cities across the North and South are becoming technologically embedded via a range of digital infrastructure from mobile social media and platforms, networks of sensors, and a vast ecology of connected devices referred to as the Internet of Things. As a result, the urban has become a key site through which an incredible amount of data is produced and extracted with policymakers and politicians relying more and more on data analytics to order, pattern, and structure the complexity of urban life. A new set of programmes and practices are being put in place intent on this mode of realisation, starting with e-governance and ICT-led development schemes to the promotion of intelligent cities and smart urbanism. With sensors, dashboards, data platforms and command and control rooms, the urban is now known through data, algorithms, modelling and a combination of visual and media channels. This new urban knowledge requires specialist techniques of analysis and visualisation, one that approaches the urban as a ‘system science’.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>This one-day workshop is open to postgraduate students across a range of disciplines from the engineering to social sciences. Led by Dr Pushpa Arabindoo and Dr Andrew Maclachlan from University College London, UK in collaboration with Dr Haripriya Narasimhan from Indian Institute of Technology Hyderabad, a large part of the day will be devoted to running ‘data analytic’ exercises in groups encouraging you to explore Hyderabad through a suite of dynamic, interactive and user-friendly visualisation/mapping while simultaneously reflecting on where data is collected from, how is it ‘calculated’ and ‘communicated’.</p>
+</blockquote>
 
 
-<div class="hidden" aria-hidden="true">
-<span class="glightbox-desc lightbox-desc-1">In progress</span>
-<span class="glightbox-desc lightbox-desc-2">In progress <a href="https://github.com/andrewmaclachlan/LAI-radiative-transfer-models-figure"><i class="fa-brands fa-github"></i></a></span>
-<span class="glightbox-desc lightbox-desc-3">COVID-19 reported cases (A) and deaths (B) in relation to the South African alert plan and contextual information on COVID-19 variants. Data source: COVID-19 Data Hub <a href="https://www.mdpi.com/2071-1050/15/3/1853"><i class="ai ai-open-access"></i></a> <a href="https://github.com/andrewmaclachlan/CCT"><i class="fa-brands fa-github"></i></a></span>
-<span class="glightbox-desc lightbox-desc-4">Three-dimensional city models (top row) and average annual mean radiant temperature (Tmrt) overlays (bottom row) for subsets of two SA1 locations representing low-density (cul-de-sac in Currambine) and high-density (infill site in Subiaco) developments. <a href="https://www.frontiersin.org/articles/10.3389/fbuil.2020.519599/full"><i class="ai ai-open-access "></i></a></span>
-<span class="glightbox-desc lightbox-desc-5">Average annual temperature using the original urban footprint, proposed redevelopment plans, and proposed plans with optimal tree placement. Also indicated are the average annual minimum, mean, and maximum mean radiant temperature with color-coded circles for each urban footprint scenario. The proposed redevelopment constitutes increased building height and variation across the site enlarging shading potential, reducing site mean radiant temperature compared to the original urban area. <a href="https://www.frontiersin.org/articles/10.3389/fbuil.2020.519599/full"><i class="ai ai-open-access"></i></a></span>
-</div>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -801,31 +774,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"loop":false,"closeEffect":"zoom","descPosition":"bottom","selector":".lightbox","openEffect":"zoom"});
-window.onload = () => {
-  lightboxQuarto.on('slide_before_load', (data) => {
-    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-    const href = trigger.getAttribute('href');
-    if (href !== null) {
-      const imgEl = window.document.querySelector(`a[href="${href}"] img`);
-      if (imgEl !== null) {
-        const srcAttr = imgEl.getAttribute("src");
-        if (srcAttr && srcAttr.startsWith("data:")) {
-          slideConfig.href = srcAttr;
-        }
-      }
-    } 
-  });
-
-  lightboxQuarto.on('slide_after_load', (data) => {
-    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-    if (window.Quarto?.typesetMath) {
-      window.Quarto.typesetMath(slideNode);
-    }
-  });
-
-};
-          </script>
 
 
 

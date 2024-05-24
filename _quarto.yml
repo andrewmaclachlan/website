@@ -11,9 +11,7 @@ website:
   back-to-top-navigation: true
   twitter-card: true
   open-graph: true
-  comments: 
-    utterances:
-      repo: https://www.github.com/andrewmaclachlan
+
 
   
   navbar:

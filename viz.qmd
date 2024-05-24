@@ -7,6 +7,10 @@ lightbox: true
 format: 
   html: 
     page-layout: full
+
+# comments: 
+#   utterances:
+#     repo: andrewmaclachlan/website
 ---
 
 

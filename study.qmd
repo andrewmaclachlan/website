@@ -2,7 +2,7 @@
 title: ""
 subtitle: ""
 ---
-hello
+
 ## PhD study
 
 I'm accepting PhD applicants on topics using geographic information systems and/or Earth observation including:

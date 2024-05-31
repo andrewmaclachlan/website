@@ -13,9 +13,9 @@ format:
 ::: grid
 ::: {#me-1 .g-col-6}
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
-library(tidyverse)
-library(readxl)
+
 library(leaflet)
+library(readxl)
 
 data <- read_excel("places.xlsx")
 

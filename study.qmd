@@ -3,7 +3,7 @@ title: ""
 subtitle: ""
 ---
 
-## PhD study
+## PhD study {#sec-phd}
 
 I'm accepting PhD applicants on topics using geographic information systems and/or Earth observation including:
 

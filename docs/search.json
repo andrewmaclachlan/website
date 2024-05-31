@@ -128,23 +128,9 @@
   {
     "objectID": "presentations.html",
     "href": "presentations.html",
-    "title": "Andy MacLachlan",
+    "title": "Resources",
     "section": "",
-    "text": "Aside from a brief stint in industry I’ve been in academia my whole career. My expertise lies in remote sensing, although in recent years this has expanded to any project using spatial data and geographical information science…\n\n“A jack of all trades is a master of none, but oftentimes better than a master of one”\n\nI teach, develop courses, conduct research and apply / maintain a variety of student funding and accreditation. All of which you’ll find on this site!\nR is my language of choice, but I also use PostGIS and Google Earth Engine."
-  },
-  {
-    "objectID": "presentations.html#hi-come-on-in",
-    "href": "presentations.html#hi-come-on-in",
-    "title": "Andy MacLachlan",
-    "section": "",
-    "text": "Aside from a brief stint in industry I’ve been in academia my whole career. My expertise lies in remote sensing, although in recent years this has expanded to any project using spatial data and geographical information science…\n\n“A jack of all trades is a master of none, but oftentimes better than a master of one”\n\nI teach, develop courses, conduct research and apply / maintain a variety of student funding and accreditation. All of which you’ll find on this site!\nR is my language of choice, but I also use PostGIS and Google Earth Engine."
-  },
-  {
-    "objectID": "presentations.html#about-me",
-    "href": "presentations.html#about-me",
-    "title": "Andy MacLachlan",
-    "section": "About me",
-    "text": "About me\n\n\nI’ve invested time in making my teaching and research resources open and reproducible. In doing so I set an example for my students and hope they are useful to a much wider audience.\nDuring my studies I spent time at the University of Wollongong during my undergradaute and at the University of Western Australia during my PhD.\n\n\n\n Fellow of the Higher Education Academy (FHEA) ∙ University College London ∙ 2020\n\n\n PhD Geography and Environmental Science ∙ University of Southampton ∙ 2019\n\n\n MSc Applied GIS and Remote Sensing (Distinction) ∙ University of Southampton ∙ 2014\n\n\n BA Human Geography (First Class Honours) ∙ The University of Sheffield ∙ 2013"
+    "text": "Resources\nHere is a complete list of all my recent resources including: conference presentations/papers, online teaching material and code for publications/figures.\n\n\n\n\n\n\n\n\n\n\n\n\n\n Back to top"
   },
   {
     "objectID": "study.html",
@@ -154,8 +140,8 @@
     "text": "I’m accepting PhD applicants on topics using geographic information systems and/or Earth observation including:\n\nCity sustainability\nSafety in the built environment\nUrban design and mental well-being\nApplications of accessibility and transport networks (using new tools such as R5R)\nEnvironmental / social / political equity (e.g. urban heat islands and redlining)\nApplied urban research using big spatial data tools (e.g. DuckDB, PostGIS or Google Earth Engine)\n\n\n\nEmmanuel Farinre “The Mental Health of Individuals and Neighbourhoods & Victims and Perpetrators of Violence. Where do we Intervene”.\n\n\n\nDr Matthew Ng “Analysing Urban Growth in Brunei: a focus on land-use, accessibility, and policy”."
   },
   {
-    "objectID": "study.html#phd-study",
-    "href": "study.html#phd-study",
+    "objectID": "study.html#sec-phd",
+    "href": "study.html#sec-phd",
     "title": "Andy MacLachlan",
     "section": "",
     "text": "I’m accepting PhD applicants on topics using geographic information systems and/or Earth observation including:\n\nCity sustainability\nSafety in the built environment\nUrban design and mental well-being\nApplications of accessibility and transport networks (using new tools such as R5R)\nEnvironmental / social / political equity (e.g. urban heat islands and redlining)\nApplied urban research using big spatial data tools (e.g. DuckDB, PostGIS or Google Earth Engine)\n\n\n\nEmmanuel Farinre “The Mental Health of Individuals and Neighbourhoods & Victims and Perpetrators of Violence. Where do we Intervene”.\n\n\n\nDr Matthew Ng “Analysing Urban Growth in Brunei: a focus on land-use, accessibility, and policy”."

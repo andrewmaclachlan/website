@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Andrew MacLachlan, Pushpa Arabindoo, Haripriya Narasimhan">
+<meta name="description" content="Digital urban workshop at IIT Hyderabad introducing spatial data, QGIS and basic operataions such as spatial joins and spatial subsets.">
 
-<title>Andy MacLachlan -</title>
+<title>Andy MacLachlan - Critical interrogations of the digital urban in India</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,25 +25,26 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,15 +74,15 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
-<meta property="og:title" content="Andy MacLachlan -">
-<meta property="og:description" content="">
-<meta property="og:image" content="assets/profile.jpg">
+<meta property="og:title" content="Andy MacLachlan - Critical interrogations of the digital urban in India">
+<meta property="og:description" content="Digital urban workshop at IIT Hyderabad introducing spatial data, QGIS and basic operataions such as spatial joins and spatial subsets.">
+<meta property="og:image" content="points_outside_study_area.png">
 <meta property="og:site_name" content="Andy MacLachlan">
-<meta name="twitter:title" content="Andy MacLachlan -">
-<meta name="twitter:description" content="">
-<meta name="twitter:image" content="assets/profile.jpg">
+<meta name="twitter:title" content="Andy MacLachlan - Critical interrogations of the digital urban in India">
+<meta name="twitter:description" content="Digital urban workshop at IIT Hyderabad introducing spatial data, QGIS and basic operataions such as spatial joins and spatial subsets.">
+<meta name="twitter:image" content="points_outside_study_area.png">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -90,7 +93,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Andy MacLachlan</span>
     </a>
   </div>
@@ -101,27 +104,31 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./teach.html"> 
+    <a class="nav-link" href="../../teach.html"> 
 <span class="menu-text">Teach</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./research.html"> 
+    <a class="nav-link" href="../../research.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./study.html"> 
+    <a class="nav-link" href="../../resources.html"> 
+<span class="menu-text">Resources</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../study.html"> 
 <span class="menu-text">Study with me</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./viz.html"> 
+    <a class="nav-link" href="../../viz.html"> 
 <span class="menu-text">Viz</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./CV.html"> 
+    <a class="nav-link" href="../../CV.html"> 
 <span class="menu-text">CV</span></a>
   </li>  
 </ul>
@@ -138,66 +145,61 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#hi-come-on-in" id="toc-hi-come-on-in" class="nav-link active" data-scroll-target="#hi-come-on-in">Hi, come on in</a></li>
-  <li><a href="#about-me" id="toc-about-me" class="nav-link" data-scroll-target="#about-me">About me</a></li>
-  </ul>
-</nav>
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-
-
-
-<section id="hi-come-on-in" class="level2">
-<h2 data-anchor-id="hi-come-on-in">Hi, come on in</h2>
-<div class="quarto-about-trestles content">
-  <div class="about-entity">
-    <img src="assets/profile.jpg" class="about-image
-  rounded " style="width: 15em;">
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Critical interrogations of the digital urban in India</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">QGIS</div>
+    <div class="quarto-category">Digital urban</div>
+    <div class="quarto-category">workshop</div>
+    <div class="quarto-category">IITH</div>
   </div>
-  <div class="about-contents"><div id="hero-heading">
-<p>Aside from a brief stint in industry I’ve been in academia my whole career. My expertise lies in remote sensing, although in recent years this has expanded to any project using spatial data and geographical information science…</p>
+  </div>
+
+<div>
+  <div class="description">
+    Digital urban workshop at IIT Hyderabad introducing spatial data, QGIS and basic operataions such as spatial joins and spatial subsets.
+  </div>
+</div>
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Andrew MacLachlan, Pushpa Arabindoo, Haripriya Narasimhan </p>
+          </div>
+  </div>
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<ul>
+<li><p>Workshop: <a href="https://andrewmaclachlan.github.io/digital-urban-hyderabad/"><i class="ai ai-open-materials"></i></a> <a href="https://github.com/andrewmaclachlan/digital-urban-hyderabad"><i class="fa-brands fa-github"></i></a></p></li>
+<li><p>Lecture: <a href="https://andrewmaclachlan.github.io/digital-urban-hyderabad-lecture/Pedagogic%20Challenges%202%20Urban%20Systems%20Science.html#/title-slide"><i class="fa-solid fa-person-chalkboard"></i></a> <a href="https://github.com/andrewmaclachlan/digital-urban-hyderabad-lecture"><i class="fa-brands fa-github"></i></a></p></li>
+</ul>
+<p>This workshop was funded by a 2023 UCL global engagement grant led by <a href="https://www.ucl.ac.uk/geography/pushpa-arabindoo">Dr Pushpa Arabindoo</a> in collaboration with <a href="https://www.iith.ac.in/la/haripriya/">Dr Haripriya Narasimhan</a></p>
+<p>Abbreviated flyer:</p>
 <blockquote class="blockquote">
-<p>“A jack of all trades is a master of none, <em><strong>but oftentimes better than a master of one</strong>”</em></p>
+<p>Is the digital really ubiquitous to the urban and is the language of the digital overwhelmingly reshaping debates about contemporary cities? It is true that, as a global norm, cities across the North and South are becoming technologically embedded via a range of digital infrastructure from mobile social media and platforms, networks of sensors, and a vast ecology of connected devices referred to as the Internet of Things. As a result, the urban has become a key site through which an incredible amount of data is produced and extracted with policymakers and politicians relying more and more on data analytics to order, pattern, and structure the complexity of urban life. A new set of programmes and practices are being put in place intent on this mode of realisation, starting with e-governance and ICT-led development schemes to the promotion of intelligent cities and smart urbanism. With sensors, dashboards, data platforms and command and control rooms, the urban is now known through data, algorithms, modelling and a combination of visual and media channels. This new urban knowledge requires specialist techniques of analysis and visualisation, one that approaches the urban as a ‘system science’.</p>
 </blockquote>
-<p>I teach, develop courses, conduct research and apply / maintain a variety of student funding and accreditation. All of which you’ll find on this site!</p>
-<p>R is my language of choice, but I also use PostGIS and Google Earth Engine.</p>
-</div></div>
-</div>
-
-</section>
-<section id="about-me" class="level2">
-<h2 data-anchor-id="about-me">About me</h2>
-<div class="grid">
-<div id="me-1" class="g-col-6">
-<p>I’ve invested time in making my teaching and research resources open and reproducible. In doing so I set an example for my students and hope they are useful to a much wider audience.</p>
-<p>During my studies I spent time at the University of Wollongong during my undergradaute and at the University of Western Australia during my PhD.</p>
-</div>
-<div id="me-2" class="g-col-6">
-<ul>
-<i class="fa-solid fa-certificate" aria-label="certificate"></i> Fellow of the Higher Education Academy (FHEA) ∙ University College London ∙ 2020
-</ul>
-<ul>
-<i class="fa-solid fa-graduation-cap" aria-label="graduation-cap"></i> <a href="https://eprints.soton.ac.uk/432276/">PhD Geography and Environmental Science</a> ∙ University of Southampton ∙ 2019
-</ul>
-<ul>
-<i class="fa-solid fa-graduation-cap" aria-label="graduation-cap"></i> MSc Applied GIS and Remote Sensing (Distinction) ∙ University of Southampton ∙ 2014
-</ul>
-<ul>
-<i class="fa-solid fa-graduation-cap" aria-label="graduation-cap"></i> BA Human Geography (First Class Honours) ∙ The University of Sheffield ∙ 2013
-</ul>
-</div>
-</div>
-<!-- end grid -->
+<blockquote class="blockquote">
+<p>This one-day workshop is open to postgraduate students across a range of disciplines from the engineering to social sciences. Led by Dr Pushpa Arabindoo and Dr Andrew Maclachlan from University College London, UK in collaboration with Dr Haripriya Narasimhan from Indian Institute of Technology Hyderabad, a large part of the day will be devoted to running ‘data analytic’ exercises in groups encouraging you to explore Hyderabad through a suite of dynamic, interactive and user-friendly visualisation/mapping while simultaneously reflecting on where data is collected from, how is it ‘calculated’ and ‘communicated’.</p>
+</blockquote>
 
 
-
-</section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -364,6 +366,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   } else {
     toggleColorMode(false);
   }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
@@ -745,8 +754,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
 });
-</script>
-<script src="https://utteranc.es/client.js" repo="https://www.github.com/andrewmaclachlan" issue-term="pathname" theme="github-light" crossorigin="anonymous" async="">
 </script>
 </div> <!-- /content -->
 <footer class="footer">

@@ -1,25 +1,17 @@
 project:
-  output-dir: docs
   type: website
-  resources:
-    - CNAME
-execute:
-  freeze: auto
-  
+
 website:
   title: "Andy MacLachlan"
-  google-analytics: "G-HYCSXSDEHJ"
   page-navigation: true
   back-to-top-navigation: true
   twitter-card: true
   open-graph: true
-
-
   
   navbar:
       tools:
         - icon: github
-          href: https://www.github.com/andrewmaclachlan
+      href: https://www.github.com/andrewmaclachlan
       right:
         - text: About
           aria-label: "About Me"
@@ -30,15 +22,15 @@ website:
         - text: Research
           aria-label: "Research"
           href: research.qmd
-        # - text: Presentations
-        #   aria-label: "Presentations"
-        #   href: presentations.qmd
+        - text: Resources
+          aria-label: "Resources"
+          href: resources.qmd
         - text: Study with me
           aria-label: "Study with me"
           href: study.qmd
         - text: Viz
           aria-label: "Viz"
-          href: viz.qmd      
+          href: viz.qmd
         - text: CV
           aria-label: "CV"
           href: CV.qmd

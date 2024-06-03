@@ -5,11 +5,12 @@ description: Between 2019 and 2021 I led the CASA dissertation module and I cont
 categories: [templates, dissertation, supervision, MSc, UCL]
 slug: CASA0010
 ---
+
 **Resources:**
 
-* Studying for a dissertation: [<i class="fa-solid fa-person-chalkboard fa-1.5x"> </i>](https://andrewmaclachlan.github.io/CASAdissertation-studying-for-a-dissertation/#1) 
+-   Studying for a dissertation: [<i class="fa-solid fa-person-chalkboard fa-1.5x"> </i>](https://andrewmaclachlan.github.io/CASAdissertation-studying-for-a-dissertation/#1)
 
-* Thesis study: [<i class="fa-solid fa-person-chalkboard fa-1.5x"> </i>](https://andrewmaclachlan.github.io/CASAdissertation-thesis-study/#1) 
+-   Thesis study: [<i class="fa-solid fa-person-chalkboard fa-1.5x"> </i>](https://andrewmaclachlan.github.io/CASAdissertation-thesis-study/#1)
 
 **Module information**
 

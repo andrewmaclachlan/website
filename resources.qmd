@@ -10,22 +10,30 @@ format:
 
 Here is a complete list of all my recent resources including: conference presentations/papers, online teaching material and code for publications/figures. 
 
+
 ```{r echo = FALSE, warning=FALSE, message=FALSE}
 library(gt)
 library(tidyverse)
 library(readxl)
 library(gtExtras)
+
 resources <- read_excel("resources.xlsx")
 
 gt_tbl <- resources %>%
   mutate(Title = sprintf('<a href = "%s">%s</a>', 
                         URL,Title), 
          Title = map(Title, gt::html)) %>%
-  select(-URL)%>%
+  # dplyr::mutate(icon1 = case_when(Type == "Lecture" ~ "person-chalkboard",
+  #                               Type == "Workbook"~ "book"))%>%
+  select(-URL, - Resource, -Type, -Module)%>%
   gt() %>%
+  fmt_icon(Icon)%>%
+  cols_align(
+  align = "center",
+  columns = Icon)%>%
   opt_row_striping()%>%
    cols_width(
-    Title ~ px(400),
+    Title ~ px(600),
     #everything() ~ px(60)
   )%>%
 opt_interactive(active = TRUE,
@@ -46,5 +54,7 @@ opt_interactive(active = TRUE,
 
 # Show the gt Table
 gt_tbl
+
+
 ```
 

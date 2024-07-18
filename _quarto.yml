@@ -8,6 +8,7 @@ execute:
   
 website:
   title: "Andy MacLachlan"
+  favicon: assets/favicon.ico
   google-analytics: "G-HYCSXSDEHJ"
   page-navigation: true
   back-to-top-navigation: true

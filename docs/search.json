@@ -7,11 +7,11 @@
     "text": "A selection of visualisations with links to code and papers. Click on the images for a gallery view."
   },
   {
-    "objectID": "viz.html#tanzania",
-    "href": "viz.html#tanzania",
+    "objectID": "viz.html#brighton",
+    "href": "viz.html#brighton",
     "title": "Viz",
-    "section": "Tanzania",
-    "text": "Tanzania\n\n\n\nIn progress"
+    "section": "Brighton",
+    "text": "Brighton\nOutputs were made to support reviewing the change in Brighton school catchment areas.\n\nGeofacet grid\n\n\n\nGeofacet grid of number of 11 year olds per MSOA in Brighton. Red line denotes the median value for the study area. Data source/packages: nomisr, gridmappr and geofacet \n\n\n\n\nShiny application"
   },
   {
     "objectID": "viz.html#uk-and-spain",
@@ -19,6 +19,13 @@
     "title": "Viz",
     "section": "UK and Spain",
     "text": "UK and Spain\n\n\n\nTrue colour composite airborne hyperspectral mosaics collected during the Wytham Woods 2021 (top left), Wytham Woods 2018 (middle left), and Valencia Anchor Station 2017 (bottom left) campaigns, in addition to the location of the elementary sampling units (ESUs) in which in situ LAI and LCC measurements were performed (middle), and the location of each study site (right)"
+  },
+  {
+    "objectID": "viz.html#tanzania",
+    "href": "viz.html#tanzania",
+    "title": "Viz",
+    "section": "Tanzania",
+    "text": "Tanzania\n\n\n\nIn progress"
   },
   {
     "objectID": "viz.html#south-africa",

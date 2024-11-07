@@ -28,14 +28,14 @@ I'm the MSc/MRes Urban Spatial Science programme leader. The programme equips st
 
 ### Past students
 
-|                       |                                                                                                                                                        |                                                                                     |                                                          |
-|--------------|-----------------------------|---------------|--------------|
-| Student               | Research                                                                                                                                               | GitHub                                                                              | Award                                                    |
-| Yi-Chien Chen         | Exploring the distribution of town centre accessibility through sustainable modes; A data-informed approach to London’s sustainable transport strategy | [{{< fa brands github >}}](https://github.com/yichienchen99/CASA0010_dissertation)  |                                                          |
-| Lorena Brambila Cantu | A gendered approach to understanding pedestrians’ perception of safety and the built environment; A case study of London                               | [{{< fa brands github >}}](https://github.com/lorebram/pedestrian-percieved-safety) |                                                          |
-| Loubna Sasso          | Exploring areas of upgrade based on the 15-minute city concept – A case study of London                                                                | [{{< fa brands github >}}](https://github.com/LoubnaSasso/CASA-Dissertation_LS)     | 2022 Society For Location Analysis Masters Award         |
-| Signe Swarttouw       | Exploring the distribution of urban building carbon emissions; A spatial approach to Westminster's decarbonisation strategy                            | [{{< fa brands github >}}](https://github.com/signesw/CASA0010_Dissertation)        | 2021 Royal Geographical Society Planning and Environment |
-| Cheyne Campbell       | Taking Steps Towards Pedestrian Safety: A Case Study of Charlotte, North Carolina                                                                      | [{{< fa brands github >}}](https://github.com/signesw/CASA0010_Dissertation)        | 2020 Royal Geographical Society Planning and Environment |
+|  |  |  |  |
+|----------------|--------------------------|----------------|----------------|
+| Student | Research | GitHub | Award |
+| Yi-Chien Chen | Exploring the distribution of town centre accessibility through sustainable modes; A data-informed approach to London’s sustainable transport strategy | [{{< fa brands github >}}](https://github.com/yichienchen99/CASA0010_dissertation) |  |
+| Lorena Brambila Cantu | A gendered approach to understanding pedestrians’ perception of safety and the built environment; A case study of London | [{{< fa brands github >}}](https://github.com/lorebram/pedestrian-percieved-safety) |  |
+| Loubna Sasso | Exploring areas of upgrade based on the 15-minute city concept – A case study of London | [{{< fa brands github >}}](https://github.com/LoubnaSasso/CASA-Dissertation_LS) | 2022 Society For Location Analysis Masters Award |
+| Signe Swarttouw | Exploring the distribution of urban building carbon emissions; A spatial approach to Westminster's decarbonisation strategy | [{{< fa brands github >}}](https://github.com/signesw/CASA0010_Dissertation) | 2021 Royal Geographical Society Planning and Environment |
+| Cheyne Campbell | Taking Steps Towards Pedestrian Safety: A Case Study of Charlotte, North Carolina | [{{< fa brands github >}}](https://github.com/cheynecampbell/charlotte-pedestrian-safety) | 2020 Royal Geographical Society Planning and Environment |
 
 ## Scholarships
 

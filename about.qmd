@@ -62,6 +62,8 @@ During my academic career I've been fortunate to study, present at conferences a
 :::
 
 ::: {#me-2 .g-col-6}
+<ul>{{< fa certificate >}} Senior Fellow of the Higher Education Academy (SFHEA) ∙ University College London ∙ 2025</ul>
+
 <ul>{{< fa certificate >}} Fellow of the Higher Education Academy (FHEA) ∙ University College London ∙ 2020</ul>
 
 <ul>{{< fa certificate >}} Associate Fellow of the Higher Education Academy (AFHEA) ∙ University of Southampton ∙ 2016</ul>

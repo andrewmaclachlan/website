@@ -37,7 +37,7 @@ Here, two separate lectures are delivered, namely:
 
 ### Part 2: Writing a thesis 
   
-Here we explore two previous dissertation submissions, one scoring a distinction and the other a pass. Across three sessions we progress through different parts of the thesis (list below). In each session we create a table for both previous submissions for comparison in relation to the marking scheme. At the end of the sessions students must create place their work within these tables. 
+Here we explore two previous dissertation submissions, one scoring a distinction and the other a pass. Across three sessions we progress through different parts of the thesis (list below). In each session we create a table for both previous submissions for comparison in relation to the marking scheme. At the end of the sessions students must place their work within these tables. 
 
 - Introduction and literature review 
   - Table headings: Problem, Aim/Question, Objectives, Literature review headings
@@ -48,7 +48,7 @@ Here we explore two previous dissertation submissions, one scoring a distinction
 
 **Additional resources:**
 
--   Recommended thesis structure: [<i class="ai ai-open-materials ai-1.75x"></i>]()
+-   [Recommended thesis structure](https://github.com/andrewmaclachlan/website/blob/main/Teach/CASA0010/Thesis%20structure.docx)
 
 ## Projects
 
@@ -120,7 +120,7 @@ Methods:
 Data:
 
 * Open Police (USA): https://openpolicing.stanford.edu/data/ 
-* Water point data: https://www.waterpointdata.org/access-data/
+* Water point data: https://www.waterpointdata.org/access-data/. See conference abstract for reference: https://zenodo.org/records/10926688 
 * Redlining boundaries: https://dsl.richmond.edu/panorama/redlining/data 
 * Places health data, census tract (USA): https://data.cdc.gov/browse?category=500+Cities+%26+Places
 * Stop, Question, Frisk (USA): https://www1.nyc.gov/site/nypd/stats/reports-analysis/stopfrisk.page

@@ -47,7 +47,7 @@ website:
 
   page-footer:  
     left: >-
-     &#169; 2024 Andy MacLachlan
+     &#169; 2025 Andy MacLachlan
     center: |
     
       [{{< fa brands github >}}](https://github.com/andrewmaclachlan)	

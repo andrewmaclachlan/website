@@ -40,7 +40,7 @@ Here, two separate lectures are delivered, namely:
 Here we explore two previous dissertation submissions, one scoring a distinction and the other a pass. Across three sessions we progress through different parts of the thesis (list below). In each session we create a table for both previous submissions for comparison in relation to the marking scheme. At the end of the sessions students must place their work within these tables. 
 
 - Introduction and literature review 
-  - Table headings: Problem, Aim/Question, Objectives, Literature review headings
+  - Table headings: Problem, Aim/Question, Objectives, Literature review
 - Methodology and Results 
   - Table headings: Data, Methods, Assumptions, Support (literature), Outputs
 - Discussion and Conclusion 
@@ -106,6 +106,20 @@ This would explore accessibility to gamling shops for different communities, if 
   Main challenge:
   
   * nothing obvious
+  
+### Exploring people vs car priorities across the city
+
+This project explores where people or cars have preference in the city, why that might be and where there is either an inbalance. Notably, where i live there is an intersection that cars can progress after a single light, but pedestrians have to cross four separate lights. 
+
+  Data:
+  
+  * Open street map
+  * Could include some field work (e.g. monitoring specific intersections)
+  
+  Main challenge:
+  
+  * needs refinement of the topic / quesiton.
+  
   
 ### Other methods / data
 

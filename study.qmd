@@ -14,9 +14,35 @@ I'm accepting PhD applicants on topics using geographic information systems and/
 -   Environmental / social / political equity (e.g. urban heat islands and redlining)
 -   Applied urban research using big spatial data tools (e.g. DuckDB, PostGIS or Google Earth Engine)
 
+### PhD application process 
+
+Unfortunately i have no immediate funding for prospective PhD students. However, there are a range of UCL (and external) funding competitions. My **suggested application process** is as below. If you are able to self fund or have secured external funding you can apply at any time, but you must still follow the application process below.
+
+#### Typically during UK summer
+
+- Develop an application to send to me directly that includes:
+  - A research proposal of 1,000 - 2,000 words
+  - A CV
+
+If suitable for my research interests I will return the proposal with comments for you to respond to. Assuming this is satisfactory you can then proceed to [submit an application to UCL](https://www.ucl.ac.uk/prospective-students/graduate/research-degrees/centre-advanced-spatial-analysis-mphil-phd)
+
+Once you have submitted an application or have a confirmed place you can apply for a funding, I am aware of the following schemes:
+
+#### Due start of January
+
+- UCL research excellence scholarship (home/oversees students): https://www.ucl.ac.uk/scholarships/research-excellence-scholarship
+
+- China Scholarship Council-UCL Joint Research Scholarship (citizens and permanent residents of the People’s Republic of China): https://www.ucl.ac.uk/scholarships/china-scholarship-council-ucl-joint-research-scholarship 
+
+#### Application starts in September
+
+- The UCL, Bloomsbury and East London Doctoral Training Partnership (UBEL) (home students): https://ubel-dtp.ac.uk/urbanstudies/
+
+- UELAs (UCL’s EPSRC PhD studentships). Staff submit projects that students can apply to between late October and early January. This is competition based across all applicants: https://www.ucl.ac.uk/epsrc-doctoral-training/prospective-students/ucl-epsrc-landscape-award-uela-studentships  
+
 ### Current students
 
-Emmanuel Farinre “The Mental Health of Individuals and Neighbourhoods & Victims and Perpetrators of Violence. Where do we Intervene”.
+Shitian Zhang "Decision Support for Fire Service Operations Using Geospatial Simulation and Machine Learning".
 
 ### Completed students
 
@@ -24,7 +50,7 @@ Dr Matthew Ng “Analysing Urban Growth in Brunei: a focus on land-use, accessib
 
 ## MSc/MRes study
 
-I'm the MSc/MRes Urban Spatial Science programme leader. The programme equips students with a multi-disciplinary and critical perspective on approaches to understanding, monitoring and improving global urban resilience and sustainability through the use of data. Taught content explores the theoretical, social and scientific foundations of the modern built environment through a geo-spatial, data-oriented lens. [Learn more about the MSc/MRes Urban Spatial Science →](https://www.ucl.ac.uk/bartlett/casa/study/urban-spatial-science-msc){.subtitle}
+From 2020-2025 I was the MSc/MRes Urban Spatial Science programme leader. The programme equips students with a multi-disciplinary and critical perspective on approaches to understanding, monitoring and improving global urban resilience and sustainability through the use of data. Taught content explores the theoretical, social and scientific foundations of the modern built environment through a geo-spatial, data-oriented lens. [Learn more about the MSc/MRes Urban Spatial Science →](https://www.ucl.ac.uk/bartlett/casa/study/urban-spatial-science-msc){.subtitle}
 
 ### Past students
 
